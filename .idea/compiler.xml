@@ -10,18 +10,23 @@
         <module name="authentication-server" />
         <module name="authorization-server" />
         <module name="bus" />
-        <module name="common" />
         <module name="config" />
         <module name="core" />
         <module name="eureka" />
+        <module name="gateway" />
+        <module name="gateway-admin" />
+        <module name="gateway-web" />
         <module name="test" />
         <module name="web" />
+        <module name="webapp-parent" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="athentication-client" target="1.8" />
       <module name="authentication-client" target="1.8" />
       <module name="center" target="1.8" />
+      <module name="geteway-admin" target="1.8" />
+      <module name="webapps" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

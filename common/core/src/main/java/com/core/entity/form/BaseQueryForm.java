@@ -1,6 +1,6 @@
 package com.core.entity.form;
 
-import com.core.entity.po.BasePo;
+import com.core.entity.param.BaseParam;
 import io.swagger.annotations.ApiModel;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
@@ -13,7 +13,7 @@ import org.springframework.beans.BeanUtils;
  */
 @ApiModel
 @Slf4j
-public class BaseQueryForm<P extends BasePo > extends BaseForm {
+public class BaseQueryForm<P extends BaseParam> extends BaseForm {
 
     public P toParam(Class<P> clazz){
         P p=null;

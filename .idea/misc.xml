@@ -16,12 +16,16 @@
         <option value="$PROJECT_DIR$/common/core/pom.xml" />
         <option value="$PROJECT_DIR$/common/web/pom.xml" />
         <option value="$PROJECT_DIR$/common/test/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/gateway-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/gateway-web/pom.xml" />
+        <option value="$PROJECT_DIR$/webapps/webapp-parent/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/auth/authentication-client/pom.xml" />
         <option value="$PROJECT_DIR$/center/pom.xml" />
+        <option value="$PROJECT_DIR$/webapps/pom.xml" />
       </set>
     </option>
   </component>
